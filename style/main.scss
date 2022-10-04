@@ -9,15 +9,15 @@ $tile-border-radius: 3px;
 
 $mobile-threshold: $field-width + 20px;
 
-$text-color: #776E65;
+$text-color: black;
 $bright-text-color: #f9f6f2;
 
 $tile-color: #eee4da;
-$tile-gold-color: #edc22e;
+$tile-gold-color: pink;
 $tile-gold-glow-color: lighten($tile-gold-color, 15%);
 
 $game-container-margin-top: 40px;
-$game-container-background: #bbada0;
+$game-container-background: violet;
 
 $transition-speed: 100ms;
 
@@ -25,8 +25,8 @@ html, body {
   margin: 0;
   padding: 0;
 
-  background: #faf8ef;
-  color: $text-color;
+  background: violet
+  color: $text-color; 
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
 }
